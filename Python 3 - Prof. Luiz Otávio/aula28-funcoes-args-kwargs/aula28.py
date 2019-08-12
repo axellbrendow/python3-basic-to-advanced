@@ -9,6 +9,7 @@ print(*lista, sep='-')  # O asterisco * desempacota a lista, *lista é igual a 1
 
 print('####################')
 
+# O * desempacota listas, já o ** desempacota dicionários
 def func(*args, **kwargs):  # key word arguments (nome='Luiz')
     print(args)
     print(f'primeiro = {args[0]}, ultimo = {args[-1]}, tamanho = {len(args)}')
