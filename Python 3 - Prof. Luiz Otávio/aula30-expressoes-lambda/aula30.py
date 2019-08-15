@@ -5,6 +5,7 @@ Expressões lambda - Funções anônimas
 def funcao(arg, arg2):
     return arg * arg2
 
+
 print(funcao(2, 3))
 
 anonima = lambda x, y: x * y
@@ -23,9 +24,11 @@ lista = [
 
 copia = [ *lista ]
 
+
 # Recebe o item da lista e retorna a 2ª chave dele que é um valor comparável
 def func(item):
     return item[1]
+
 
 # Usar a função sorted caso a lista original deva ficar intacta
 lista.sort(key=func)

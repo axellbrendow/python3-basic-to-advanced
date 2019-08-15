@@ -25,6 +25,7 @@ print(sys.getsizeof(lista))
 
 print('Inicia uma ideia de geradores')
 
+
 def gerar():
     listagerar = []
 
@@ -33,6 +34,7 @@ def gerar():
         time.sleep(0.1)  # Simulando uma função com alto custo
 
     return listagerar
+
 
 listagerada = gerar()
 
@@ -43,10 +45,12 @@ for value in listagerada:
 
 print('Criando uma função geradora')
 
+
 def gerar():
     for n in range(50):
         yield n
         time.sleep(0.1)  # Simulando uma função com alto custo
+
 
 gerador = gerar()
 

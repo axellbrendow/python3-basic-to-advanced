@@ -27,9 +27,11 @@ print(precos)
 
 print('\naumentando preços')
 
+
 def aumentar_preco(produto):
     produto['preco'] = round(produto['preco'] * 1.05, 2)
     return produto
+
 
 novo_carrinho = map(aumentar_preco, carrinho)
 
@@ -43,9 +45,11 @@ for pessoa in pessoas:
 
 print('\naumentando idades')
 
+
 def aumentar_idade(pessoa):
     pessoa['nova_idade'] = round(pessoa['idade'] * 1.05, 2)
     return pessoa
+
 
 novas_pessoas = map(aumentar_idade, pessoas)
 

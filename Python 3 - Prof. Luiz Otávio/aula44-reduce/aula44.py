@@ -32,8 +32,10 @@ for pessoa in pessoas:
 
 print('\nsomando idades')
 
+
 def somar_idade(acumulado, pessoa):
     return acumulado + pessoa['idade']
+
 
 media = reduce(somar_idade, pessoas, 0) / len(pessoas)
 print(media)

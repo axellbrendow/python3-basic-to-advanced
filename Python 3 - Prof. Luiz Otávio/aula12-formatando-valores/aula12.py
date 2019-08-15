@@ -21,8 +21,8 @@ print(f'{divisao:.2f}')
 
 nome = 'Luiz otávio MIraNadA'
 print(f'{nome:s}')
-print(f'{nome.lower()}')  # Minúsculas
-print(f'{nome.upper()}')  # Maiúsculas
+print(f'{nome.lower()}')  # minúsculas
+print(f'{nome.upper()}')  # MAIÚSCULAS
 print(f'{nome.title()}')  # Camel Case
 
 num_1 = 1

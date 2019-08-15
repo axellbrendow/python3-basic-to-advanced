@@ -25,7 +25,7 @@ cidades_estados_zip_longest = zip_longest(
 for valor in cidades_estados_zip_longest:
     print(valor)
 
-#print(cidades)
-#print(estados)
-#print(list(cidades_estados_zip))
-#print(list(cidades_estados_zip_longest))
+# print(cidades)
+# print(estados)
+# print(list(cidades_estados_zip))
+# print(list(cidades_estados_zip_longest))

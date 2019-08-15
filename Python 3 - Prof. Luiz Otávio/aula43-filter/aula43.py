@@ -33,8 +33,10 @@ for pessoa in pessoas:
 
 print('\nfiltrando idades')
 
+
 def filtrar_idade(pessoa):
     return pessoa['idade'] < 18
+
 
 novas_pessoas = list(filter(filtrar_idade, pessoas))
 
