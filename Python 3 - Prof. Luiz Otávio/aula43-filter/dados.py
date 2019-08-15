@@ -1,6 +1,3 @@
-"""
-Map - Percorrer elementos de um iterador
-"""
 
 carrinho = []
 carrinho.append({'nome': 'Produto 1', 'preco': 80})

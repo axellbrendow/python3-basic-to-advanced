@@ -1,6 +1,7 @@
 """
-Filter - Percorre os elementos de um iterável, cria cópias deles e aplica uma
-função que decide se o elemento deve ou não ir para a nova coleção.
+Filter(lambda item: boolean, iterable) - Percorre os elementos de um iterável,
+cria cópias deles e aplica uma função que decide se o elemento deve ou não ir
+para a nova coleção.
 """
 
 from dados import carrinho, pessoas, lista

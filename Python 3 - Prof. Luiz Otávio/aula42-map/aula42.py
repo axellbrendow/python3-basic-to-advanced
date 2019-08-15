@@ -1,5 +1,6 @@
 """
-Map - Percorre os elementos de um iterável, cria cópias deles e aplica uma função.
+Map(lambda item: newitem, iterable) - Percorre os elementos de um iterável, cria
+cópias deles e aplica uma função.
 """
 
 from dados import carrinho, pessoas, lista
