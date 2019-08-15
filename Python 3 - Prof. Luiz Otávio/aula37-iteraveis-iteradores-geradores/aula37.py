@@ -21,6 +21,8 @@ print(next(lista))
 print('Tamanho em bytes da lista')
 print(sys.getsizeof(lista))
 
+################################
+
 print('Inicia geradores')
 
 def gerar():
@@ -36,6 +38,8 @@ listagerada = gerar()
 
 for value in listagerada:
     print(value)
+
+################################
 
 print('Criando uma função geradora')
 
