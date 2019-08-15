@@ -23,7 +23,7 @@ print(sys.getsizeof(lista))
 
 ################################
 
-print('Inicia geradores')
+print('Inicia uma ideia de geradores')
 
 def gerar():
     listagerar = []

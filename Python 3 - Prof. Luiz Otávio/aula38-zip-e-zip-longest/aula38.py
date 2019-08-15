@@ -1,14 +1,20 @@
 """
 zip e zip_longest - unindo iteráveis
+
+zip e zip_longest unem dois conjuntos iteráveis em uma tupla e retornam um
+iterador preguiçoso sobre as tuplas.
 """
 
 from itertools import zip_longest, count
 
-indice = count()  # Cria um gerador de numeros
+indice = count()  # Cria um iterador sobre numeros infinitos
 cidades = ['São Paulo', 'Belo Horizonte', 'Salvador', 'Monte Belo']
 estados = ['SP', 'MG', 'BA']
-#cidades_estados_zip = zip(cidades, estados)  # Joga fora 'Monte Belo'
+# cidades_estados_zip = zip(cidades, estados)  # Joga fora 'Monte Belo'
+
 # Não joga fora 'Monte Belo', completa o array de estados com fillvalue=None
+# Como o iterador count() é infinito, zip_longest irá ficar em looping infinito
+# ao ser iterado
 cidades_estados_zip_longest = zip_longest(
     indice,
     cidades,
@@ -16,8 +22,8 @@ cidades_estados_zip_longest = zip_longest(
     fillvalue='Estado'
 )
 
-for indice, estado, cidade in cidades_estados_zip_longest:
-    print(indice, estado, cidade)
+for valor in cidades_estados_zip_longest:
+    print(valor)
 
 #print(cidades)
 #print(estados)
