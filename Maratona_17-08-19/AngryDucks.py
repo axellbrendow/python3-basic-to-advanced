@@ -8,16 +8,6 @@ G = 9.80665  # Gravidade
 
 
 def resolver_equacao(a: float, b: float, c: float):
-    """
-    Resolve uma equação do 2º grau.
-
-    :param a: Coeficiente do termo de 2º grau.
-    :param b: Coeficiente do termo de 1º grau.
-    :param c: Termo independente.
-
-    :return: Caso o delta seja negativo, retorna dois valores iguais a math.inf.
-        Caso contrário, retorna as duas raízes da equação.
-    """
     x1 = math.inf
     x2 = math.inf
     delta = b * b - 4 * a * c
