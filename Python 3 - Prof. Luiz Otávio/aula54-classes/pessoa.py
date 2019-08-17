@@ -1,6 +1,7 @@
 from datetime import datetime
 
 class Pessoa:
+    # Isto é um atributo da classe, e não do objeto !
     ano_atual = int(datetime.strftime(datetime.now(), '%Y'))
 
     def __init__(self, nome, idade, comendo=False, falando=False):

@@ -14,6 +14,6 @@ p1.falar('C++')
 p1.parar_de_falar()
 p1.falar('C++')
 
-print(p1.ano_atual)
-print(Pessoa.ano_atual)
+print(p1.ano_atual)  # O atributo ano_atual é da classe Pessoa e não do objeto
+print(Pessoa.ano_atual)  # É possível acessar diretamente o atributo da classe
 print(p1.ano_de_nascimento())
