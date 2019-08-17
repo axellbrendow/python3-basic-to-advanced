@@ -3,7 +3,7 @@
 
 import math
 
-PI = 3.14159  # Constantes PI
+PI = 3.14159  # Constante PI
 G = 9.80665  # Gravidade
 
 
@@ -36,7 +36,7 @@ for i in range(numero_de_tentativas):
     # para y. Como o movimento na vertical (y) é uniformemente variado (MUV):
     # y = y_inicial + velocidade * tempo - (gravidade / 2) * tempo * tempo
     tempo1, tempo2 = resolver_equacao(-G / 2, velocidade_inicial_em_y, altura_inicial)
-    # O tempo maior será o tempo de y = 0 após o vértice da parábola pois ela
+    # A maior raiz da equação será o tempo de queda desejado pois a parábola
     # tem concavidade para baixo
     tempo_na_queda = max(tempo1, tempo2)
     distancia_percorrida = velocidade_em_x * tempo_na_queda
