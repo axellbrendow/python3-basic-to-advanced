@@ -3,14 +3,11 @@ from itertools import combinations
 
 def obter_palindromos(palavra):
     tamanho_palavra = len(palavra)
-    palindromos = set()
 
-    for i in range(tamanho_palavra):
-        for group in combinations(palavra, i + 1):  # Combina em grupos de i + 1 elementos
-            if group == group[::-1]:  # Checa se o grupo é igual ao inverso dele
-                palindromos.add(group)
-
-    return palindromos
+    # Essa sintaxe é a de set comprehension em Python. Aqui há duas nested comprehensions.
+    return {group for i in range(tamanho_palavra)
+            # Gera combinações da palavra com grupos de caracteres cada vez maiores
+            for group in combinations(palavra, i + 1) if group == group[::-1]}
 
 
 try:
