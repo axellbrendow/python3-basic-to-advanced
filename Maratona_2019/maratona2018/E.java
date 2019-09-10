@@ -2,27 +2,38 @@ import java.util.Arrays;
 
 public class E
 {
-	public static char[] letras = new char[]
-	{
-		'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-		'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
-	};
-	
 	public static final int TAMANHO_ALFABETO = 26;
 	public static final int[] deslocamentos = new int[TAMANHO_ALFABETO];
+	
 	public static int hash(char c) { return c - 'A'; }
+	
+	public static void inicializarBoyerMoore(String crib, int tamanho)
+	{
+		Arrays.fill(deslocamentos, tamanho); // Coloca o tamanho do crib em todas as posições
+		
+		for (int i = 0; i < tamanho - 1; i++)
+		{
+			deslocamentos[hash(crib.charAt(i))] = tamanho - 1 - i;
+		}
+	}
+	
+	public static int boyerMoore(String string, String substring)
+	{
+		int count = 0, i = 0;
+		int tamanhoSubStr = substring.length();
+		
+		inicializarBoyerMoore(substring, tamanhoSubStr);
+		
+		//while ()
+		
+		return count;
+	}
 	
 	public static void main(String[] args)
 	{
 		String mensagemCifrada = IO.readLine();
 		String crib = IO.readLine();
-		int tamanhoCrib = crib.length();
 		
-		Arrays.fill(deslocamentos, tamanhoCrib); // Coloca o tamanho do crib em todas as posições
-		
-		for (int i = 0; i < tamanhoCrib; i++)
-		{
-			deslocamentos[hash(crib.charAt(i))] = tamanhoCrib - 1 - i;
-		}
+		IO.println(boyerMoore(mensagemCifrada, crib));
 	}
 }
