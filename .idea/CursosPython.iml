@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula02-print" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula03-str-e-aspas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula04-tipos-primitivos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula05-operadores-aritméticos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula06-variaveis" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula07-formatar-strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula08-input" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula09-if-elif-else" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula10-operadores-relacionais" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula11-operadores-lógicos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula12-formatando-valores" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula13-indices-e-fatiamento-de-strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula14-while" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula15-while-else-acumuladores" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula16-while-strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula17-for-in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula18-listas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula19-for-else" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula20-split-join-enumerate" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula21-desempacotamento" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula22-trocar-valor-entre-variaveis" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula23-operação-ternária" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula24-condicional-com-or" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula25-gerando-cpfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula26-funcoes-parametros" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula27-funcoes-retorno" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula28-funcoes-args-kwargs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula29-funcoes-escopo-variaveis" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula30-expressoes-lambda" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula31-tuplas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula32-dicionarios" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula33-sistemas-de-pergunta-resposta" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula34-sets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula35-list-comprehension" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula36-dictionary-comprehension" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula37-iteraveis-iteradores-geradores" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula38-zip-e-zip-longest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula39-count-contador-infinito" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula40-combinations-permutations-product" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula41-groupby" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula42-map" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula43-filter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula44-reduce" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula45-excecoes-try-except-else-finally" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula46-levantar-excecao-raise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula47-modulos-padrao" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula48-como-criar-um-modulo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula49-criando-pacotes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula50-manipulando-arquivos-e-json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula51-decoradores" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula52-problema-dos-parametros-mutaveis" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula53-gerando-cnpjs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula54-classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula55-metodos-de-classe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula56-metodos-estaticos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula57-getters-e-setters" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula58-atributos-de-classe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula59-encapsulamento" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula60-associacao" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/aula61-agregacao" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/desafios-ate-a-aula07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/desafios-ate-a-aula11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/desafios-ate-a-aula24" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/desafios-ate-a-aula27" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/desafios-ate-a-aula29" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/desafios-ate-a-aula35" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/desafios-ate-a-aula37" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python 3 - Prof. Luiz Otávio/desafios-ate-a-aula52" isTestSource="false" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Maratona_2019" />
