@@ -61,7 +61,7 @@ class Pessoa:
         # Instancia um objeto da própria classe
         return cls(nome, idade)  # Factory method
 
-    # Não tabalha com self nem cls. É apenas um método que fica no escopo da
+    # Não trabalha com self nem cls. É apenas um método que fica no escopo da
     # classe e está sempre acessível.
     @staticmethod
     def gerarId():

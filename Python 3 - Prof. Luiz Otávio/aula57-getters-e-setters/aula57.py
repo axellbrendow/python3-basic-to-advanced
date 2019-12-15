@@ -10,7 +10,7 @@ class Produto:
     # Getter
     @property
     def nome(self):
-        return self._nome
+        return self._nome  # O nome com underline é apenas uma convenção. Poderia ser outro.
 
     # Setter
     @nome.setter
