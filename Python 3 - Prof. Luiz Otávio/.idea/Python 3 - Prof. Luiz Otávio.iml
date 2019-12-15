@@ -72,7 +72,8 @@
       <sourceFolder url="file://$MODULE_DIR$/desafios-ate-a-aula37" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/desafios-ate-a-aula52" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula62-composicao" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/aula63-henranca_simples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula63-henranca-simples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula64-sobreposicao-de-membros" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
