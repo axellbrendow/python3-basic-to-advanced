@@ -71,6 +71,7 @@
       <sourceFolder url="file://$MODULE_DIR$/desafios-ate-a-aula35" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/desafios-ate-a-aula37" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/desafios-ate-a-aula52" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula62-composicao" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
