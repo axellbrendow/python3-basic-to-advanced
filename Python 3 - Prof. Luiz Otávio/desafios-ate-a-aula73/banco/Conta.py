@@ -1,12 +1,15 @@
 # abc = Abstract Base Class
 from abc import ABC, abstractmethod
+from banco.Agencia import Agencia
+from banco.Cliente import Cliente
 
 
 class Conta(ABC):
-    def __init__(self, agencia: int, conta: int, saldo: float):
+    def __init__(self, agencia: Agencia, conta: int, cliente: Cliente, saldo: float):
         self._agencia = agencia
         self._conta = conta
         self._saldo = saldo
+        self._cliente = cliente
 
     @property
     def agencia(self):
@@ -28,8 +31,14 @@ class Conta(ABC):
         else:
             self._saldo = valor
 
+    @property
+    def cliente(self):
+        return self._cliente
+
     def detalhes(self):
-        print(f'Agência: {self.agencia}, Conta: {self.conta}, Saldo: {self.saldo}')
+        # print(f'Cliente: {self.cliente}, Agência: {self.agencia}, Conta: {self.conta}, Saldo: {self.saldo}')
+        # print(f'Detalhes: Cliente: {self.cliente}, Conta: {self.conta}, Saldo: {self.saldo}')
+        print(f'Detalhes: Conta: {self.conta}, Saldo: {self.saldo}')
 
     def depositar(self, valor):
         if not isinstance(valor, (int, float)):
@@ -45,4 +54,10 @@ class Conta(ABC):
         pass
 
     def __str__(self):
-        return f"{{'agencia': {self.agencia}, 'conta': {self.conta}, 'saldo': {self.saldo}}}"
+        return f"{{'agencia': {self.agencia}, 'cliente': {self.cliente}, 'conta': {self.conta}, 'saldo': {self.saldo}}}"
+
+    def __eq__(self, other):
+        return str(self) == str(other)
+
+    def __ne__(self, other):
+        return not self == other

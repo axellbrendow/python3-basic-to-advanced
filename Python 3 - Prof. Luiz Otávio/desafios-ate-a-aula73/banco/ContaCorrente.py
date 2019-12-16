@@ -1,9 +1,11 @@
 from banco.Conta import Conta
+from banco.Agencia import Agencia
+from banco.Cliente import Cliente
 
 
 class ContaCorrente(Conta):
-    def __init__(self, agencia, conta, saldo, limite = 100):
-        super().__init__(agencia, conta, saldo)
+    def __init__(self, agencia: Agencia, conta: int, cliente: Cliente, saldo: float, limite: int = 100):
+        super().__init__(agencia, conta, cliente, saldo)
         self._limite = limite
 
     @property
