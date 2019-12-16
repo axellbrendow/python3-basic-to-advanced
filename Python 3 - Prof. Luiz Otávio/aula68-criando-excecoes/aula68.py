@@ -1,6 +1,7 @@
 class TaErradoError(Exception):
     pass
 
+
 def testar():
     raise TaErradoError('Errado!')
 

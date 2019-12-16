@@ -78,6 +78,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula66-classes-abstratas" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula67-polimorfismo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula68-criando-excecoes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula69-sobrecarga-de-operadores" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
