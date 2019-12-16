@@ -33,15 +33,16 @@ def funcao(p1: float, p2: str, p3: dict) -> Union[str, float]:
     :raises ValueError: Se o dicionário p3 não estiver vazio.
     """
 
-    if p3:
-        raise ValueError()
-
     if len(p3) == 1:
         return 10.10
+
+    if p3:
+        raise ValueError()
 
     else:
         return str(p1) + p2
 
 
 print(funcao(10.1, 'str', {}))
-print(len({'nome': 'axell'}))
+print(funcao(10.1, 'str', {'nome': 'axell'}))
+print(funcao(10.1, 'str', {'nome': 'axell', 'idade': 20}))
