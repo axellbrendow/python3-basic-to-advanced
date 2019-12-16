@@ -76,6 +76,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula64-sobreposicao-de-membros" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula65-heranca-multipla" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula66-classes-abstratas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula67-polimorfismo" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
