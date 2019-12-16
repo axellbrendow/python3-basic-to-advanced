@@ -80,6 +80,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula68-criando-excecoes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula69-sobrecarga-de-operadores" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula70-metodos-magicos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula71-context-managers-with-as" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
