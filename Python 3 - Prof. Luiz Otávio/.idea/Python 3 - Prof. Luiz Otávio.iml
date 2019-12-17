@@ -86,6 +86,7 @@
       <sourceFolder url="file://$MODULE_DIR$/desafios-ate-a-aula73" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula74-datetime" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula75-datetime-em-portugues" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula76-os-arquivos-e-pastas" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
