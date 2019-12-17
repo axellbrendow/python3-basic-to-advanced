@@ -93,6 +93,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula80-csv" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula81-random" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula82-string-template" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula83-enviando-email" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
