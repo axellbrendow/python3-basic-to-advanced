@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/aula65-heranca-multipla/log.log" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/aula82-string-template/template.html" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/aula83-enviando-email/template.html" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/aula84-compactacao-e-descompactacao/template.html" charset="windows-1252" />
   </component>
 </project>

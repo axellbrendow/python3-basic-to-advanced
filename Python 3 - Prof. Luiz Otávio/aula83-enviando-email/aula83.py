@@ -29,7 +29,7 @@ with open('imagem.jpg', 'rb') as imagem:
 
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo()  # Mensagem de hello
-    smtp.starttls()  # O gmail aceita email com tls
+    smtp.starttls()  # O gmail só aceita emails com tls
     smtp.login(meu_email, minha_senha)
     smtp.send_message(msg)
     print('E-mail enviado com sucesso!')
