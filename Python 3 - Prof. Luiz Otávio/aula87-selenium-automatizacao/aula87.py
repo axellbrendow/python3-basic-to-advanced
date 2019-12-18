@@ -2,8 +2,6 @@ from selenium import webdriver
 from time import sleep
 
 sleep_time = 3
-meu_usuario = 'axell-brendow'
-minha_senha = ''
 
 
 class ChromeAuto:
@@ -37,8 +35,8 @@ class ChromeAuto:
             input_password = self.chrome.find_element_by_id('password')
             btn_login = self.chrome.find_element_by_name('commit')
 
-            input_login.send_keys(meu_usuario)
-            input_password.send_keys(minha_senha)
+            input_login.send_keys('axell-brendow')
+            input_password.send_keys('minha_senha')
             sleep(sleep_time)
             btn_login.click()
 
