@@ -96,6 +96,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula83-enviando-email" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula84-compactacao-e-descompactacao" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula85-arquivos-com-argumentos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula86-web-scraping" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
