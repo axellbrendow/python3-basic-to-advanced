@@ -98,6 +98,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula85-arquivos-com-argumentos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula86-web-scraping" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula87-selenium-automatizacao" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula88-subprocess-comandos-externos" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
