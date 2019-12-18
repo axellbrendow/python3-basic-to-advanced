@@ -100,6 +100,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula87-selenium-automatizacao" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula88-subprocess-comandos-externos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula89-jupyter-notebook" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula90-threads-processamento-paralelo" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
