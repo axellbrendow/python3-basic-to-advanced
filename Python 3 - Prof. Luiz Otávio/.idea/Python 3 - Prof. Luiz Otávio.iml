@@ -107,6 +107,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula94-pillow-redimensionando-imagens" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula95-pyqt5-GUI-interfaces" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula96-pyqt5-calculadora" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula97-qt-designer" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
