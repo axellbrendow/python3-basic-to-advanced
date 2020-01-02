@@ -113,6 +113,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula102-django-hello-world" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula103-django-template-global" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula104-django-homepage" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula105-django-arquivos-estaticos-css-js-img" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
