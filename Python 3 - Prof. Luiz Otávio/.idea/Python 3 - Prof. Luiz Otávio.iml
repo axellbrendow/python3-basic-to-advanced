@@ -112,6 +112,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula101-crud-pymysql" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula102-django-hello-world" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula103-django-template-global" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula104-django-homepage" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
