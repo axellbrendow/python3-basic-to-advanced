@@ -119,6 +119,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula107ate108-django-projeto-agenda" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula107ate109-django-projeto-agenda" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula107ate110-django-exibindo-valores-nas-views" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula107ate111-django-url-parametrizada-detalhes-contato" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
