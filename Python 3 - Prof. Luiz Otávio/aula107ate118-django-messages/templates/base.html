@@ -23,6 +23,8 @@
                  name="termo" placeholder="Pesquisar" value="{{ request.GET.termo }}">
         </form>
 
+        {% include 'parciais/_messages.html' %}
+
         {% block 'conteudo' %}{% endblock %}
       </div>
     </div>

@@ -1,9 +1,10 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.http import Http404
 from django.core.paginator import Paginator
 from django.db.models import Q, Value
 from django.db.models.functions import Concat
 from .models import Contato
+from django.contrib import messages
 
 
 def index(request):
@@ -39,7 +40,10 @@ def buscar(request):
     termo = request.GET.get('termo')
 
     if termo is None or not termo:
-        raise Http404()
+        messages.add_message(request, messages.ERROR, 'O campo termo não pode ser vazio.')
+
+        return redirect('index')  # 'index' é o nome da url em urls.py
+        # raise Http404()
 
     # Imita um campo provisório
     campo_nome_completo = Concat('nome', Value(' '), 'sobrenome')
