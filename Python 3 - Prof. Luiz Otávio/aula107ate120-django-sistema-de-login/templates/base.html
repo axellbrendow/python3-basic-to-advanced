@@ -16,12 +16,14 @@
     <div class="row">
       <div class="col-lg-12">
 
-        <br/>
+        {% if 'accounts' not in request.path %}
+          <br/>
 
-        <form method="get" action="{% url 'buscar' %}">
-          <input type="text" class="form-control" id="termoDePesquisa"
-                 name="termo" placeholder="Pesquisar" value="{{ request.GET.termo }}">
-        </form>
+          <form method="get" action="{% url 'buscar' %}">
+            <input type="text" class="form-control" id="termoDePesquisa"
+                   name="termo" placeholder="Pesquisar" value="{{ request.GET.termo }}">
+          </form>
+        {% endif %}
 
         {% include 'parciais/_messages.html' %}
 

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block 'conteudo' %}
+<h1>Registro</h1>
+                                           <!-- mt = margin top, mb = margin bottom -->
+<form method="post" action="{% url 'register' %}" class="mt-3 mb-3">
+  {% csrf_token %}
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="nome" class="form-control" id="nome" name="nome"
+           placeholder="Digite seu nome">
+  </div>
+  <div class="form-group">
+    <label for="sobrenome">Sobrenome</label>
+    <input type="sobrenome" class="form-control" id="sobrenome" name="sobrenome"
+           placeholder="Digite seu sobrenome">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="email"
+           aria-describedby="emailHelp" placeholder="Digite seu email">
+  </div>
+  <div class="form-group">
+    <label for="usuario">Usuário</label>
+    <input type="usuario" class="form-control" id="usuario" name="usuario"
+           placeholder="Digite seu usuário">
+  </div>
+  <div class="form-group">
+    <label for="password">Senha</label>
+    <input type="password" class="form-control" id="password" name="password"
+           placeholder="Digite sua senha">
+  </div>
+  <div class="form-group">
+    <label for="password-confirm">Confirmar Senha</label>
+    <input type="password-confirm" class="form-control" id="password-confirm"
+           name="password-confirm" placeholder="Repita a senha">
+  </div>
+  <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+{% endblock %}
