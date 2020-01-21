@@ -8,22 +8,22 @@
   <div class="form-group">
     <label for="nome">Nome</label>
     <input type="nome" class="form-control" id="nome" name="nome"
-           placeholder="Digite seu nome">
+           value="{{ request.POST.nome }}" placeholder="Digite seu nome">
   </div>
   <div class="form-group">
     <label for="sobrenome">Sobrenome</label>
     <input type="sobrenome" class="form-control" id="sobrenome" name="sobrenome"
-           placeholder="Digite seu sobrenome">
+           value="{{ request.POST.sobrenome }}" placeholder="Digite seu sobrenome">
   </div>
   <div class="form-group">
     <label for="email">Email</label>
     <input type="email" class="form-control" id="email" name="email"
-           aria-describedby="emailHelp" placeholder="Digite seu email">
+           value="{{ request.POST.email }}" aria-describedby="emailHelp" placeholder="Digite seu email">
   </div>
   <div class="form-group">
     <label for="usuario">Usuário</label>
     <input type="usuario" class="form-control" id="usuario" name="usuario"
-           placeholder="Digite seu usuário">
+           value="{{ request.POST.usuario }}" placeholder="Digite seu usuário">
   </div>
   <div class="form-group">
     <label for="password">Senha</label>

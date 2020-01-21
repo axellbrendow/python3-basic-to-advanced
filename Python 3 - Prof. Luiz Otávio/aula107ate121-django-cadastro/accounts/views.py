@@ -23,12 +23,11 @@ def register(request):
 
         if not nome or not sobrenome or not email or not usuario or not password or\
                 not passwordConfirm:
-            print('entrou nas nots')
             messages.add_message(request, messages.ERROR, 'Nenhum campo pode estar vazio')
             response = render(request, 'accounts/register.html')
 
         else:
-            print('passou das nots')
+            pass
 
     return response
 
