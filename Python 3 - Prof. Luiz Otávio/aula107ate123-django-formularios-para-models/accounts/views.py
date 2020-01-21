@@ -3,6 +3,7 @@ from django.contrib import messages, auth
 from django.core.validators import validate_email
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
+from .models import FormContato
 
 
 def login(request):
@@ -46,7 +47,7 @@ def register(request):
         passwordConfirm = request.POST.get('password-confirm')
 
         # Faz as validações
-        if not nome or not sobrenome or not email or not usuario or not password or\
+        if not nome or not sobrenome or not email or not usuario or not password or \
                 not passwordConfirm:
             messages.add_message(request, messages.ERROR, 'Nenhum campo pode estar vazio')
 
@@ -90,4 +91,26 @@ def register(request):
 
 @login_required(redirect_field_name='login')
 def dashboard(request):
-    return render(request, 'accounts/dashboard.html')
+    if request.method != 'POST':
+        form = FormContato()
+        response = render(request, 'accounts/dashboard.html', {'form': form})
+
+    else:
+        form = FormContato(request.POST, request.FILES)
+        descricao = request.POST.get('descricao')
+
+        if not form.is_valid():
+            messages.error(request, 'Erro no envio do formulário')
+
+        if len(descricao) < 5:
+            messages.error(request, 'Descrição precisa ter 5 ou mais caracteres')
+
+        if len(messages.get_messages(request)):
+            response = render(request, 'accounts/dashboard.html', {'form': form})
+
+        else:
+            form.save()
+            messages.success(request, f'Contato {request.POST.get("nome")} salvo com sucesso!')
+            response = redirect('dashboard')
+
+    return response
