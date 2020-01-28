@@ -12,7 +12,7 @@ class Comentario(models.Model):
         Post, on_delete=models.CASCADE, verbose_name='Post'
     )
     usuario_comentario = models.ForeignKey(
-        User, on_delete=models.DO_NOTHING, verbose_name='Usuário'
+        User, on_delete=models.DO_NOTHING, verbose_name='Usuário', blank=True, null=True
     )
     data_comentario = models.DateTimeField(default=timezone.now, verbose_name='Data')
     publicado_comentario = models.BooleanField(default=False, verbose_name='Publicado')
