@@ -71,6 +71,19 @@ class PostDetalhes(UpdateView):
     # com o nome do atributo 'context_object_name' para o template
     context_object_name = 'post'
 
+    def get_context_data(self, **kwargs):
+        contexto = super().get_context_data(**kwargs)  # Dados disponíveis no template
+        post = self.get_object()
+        comentarios = Comentario.objects.filter(
+            publicado_comentario=True,
+            post_comentario=post.id
+        )
+
+        # Injeta os comentários no contexto antes de ir pros templates
+        contexto['comentarios'] = comentarios
+
+        return contexto
+
     def form_valid(self, form):
         post = self.get_object()
         comentario = Comentario(**form.cleaned_data)
