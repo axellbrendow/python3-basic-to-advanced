@@ -124,6 +124,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula107ate123-django-formularios-para-models" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula127ate127-django-blog-inicio-projeto" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula127ate128-django-blog-templates" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula127ate129-django-blog-busca-e-filtragem" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
