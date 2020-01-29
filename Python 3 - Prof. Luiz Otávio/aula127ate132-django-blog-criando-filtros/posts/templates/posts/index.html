@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load humanize %}
+{% load omfilters %}
 
 {% block 'titulo' %}Início{% endblock %}
 
@@ -28,7 +29,7 @@
                         <small class="text-muted">
                             {{ post.data_post | naturalday | title }}
                             |
-                            {{ post.numero_comentarios }} comentário(s)
+                            {{ post.numero_comentarios | plural_comentarios }}
                             |
                             {{ post.categoria_post }}</small>
                     </p>
