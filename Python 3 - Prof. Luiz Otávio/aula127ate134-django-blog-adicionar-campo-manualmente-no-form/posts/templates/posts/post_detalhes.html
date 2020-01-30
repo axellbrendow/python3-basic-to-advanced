@@ -4,7 +4,6 @@
 
 {% block 'conteudo' %}
     <!-- POST -->
-    <div class="container">
         <div class="row pt-5">
             <div class="col-xl"></div>
             <div class="col-xl-8 text-center">
@@ -57,21 +56,30 @@
 
                 <form method="POST" action="#enviar_comentario">
                     {% csrf_token %}
-                    <table class="table">
-                        {{ form }}
-                        <tr>
-                            <td colspan="2">
-                                {% include 'parciais/_messages.html' %}
-                                <input id="enviar_comentario" type="submit" class="btn btn-primary"
-                                       value="Enviar">
-                            </td>
-                        </tr>
-                    </table>
+
+                    {% for hidden_field in form.hidden_fields %}
+                        <div class="form-group">
+                            {{ hidden_field.label_tag }} <br/>
+                            {{ hidden_field }}
+                            {{ hidden_field.errors }}
+                        </div>
+                    {% endfor %}
+
+                    {% for visible_field in form.visible_fields %}
+                        <div class="form-group">
+                            {{ visible_field.label_tag }} <br/>
+                            {{ visible_field }}
+                            {{ visible_field.errors }}
+                        </div>
+                    {% endfor %}
+
+                    {% include 'parciais/_messages.html' %}
+                    <input id="enviar_comentario" type="submit" class="btn btn-primary"
+                           value="Enviar">
                 </form>
 
             </div>
             <div class="col-xl"></div>
         </div>
-    </div>
     <!-- POST -->
 {% endblock %}

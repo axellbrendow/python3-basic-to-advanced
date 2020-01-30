@@ -130,6 +130,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula127ate131-django-blog-comentarios-do-post" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula127ate132-django-blog-criando-filtros" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula127ate133-django-blog-otimizando-consultas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula127ate134-django-blog-adicionar-campo-manualmente-no-form" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
