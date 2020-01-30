@@ -16,6 +16,10 @@ class PostIndex(ListView):
 
     def get_queryset(self):
         queryset = super().get_queryset()
+        # Cria uma consulta mais complexa que já puxa dados relacionados ao post
+        # e os deixa disponíveis para o template. Isso evita algumas consultas
+        # que o próprio template faria.
+        queryset = queryset.select_related('categoria_post')
         queryset = queryset.order_by('-id').filter(publicado_post=True)
         queryset = queryset.annotate(
             numero_comentarios=Count(
