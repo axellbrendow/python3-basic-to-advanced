@@ -132,6 +132,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula127ate133-django-blog-otimizando-consultas" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula127ate134-django-blog-adicionar-campo-manualmente-no-form" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula127ate135-django-blog-usando-view-inves-de-updateview" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula127ate136-django-blog-redimensionando-imagens-model" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
