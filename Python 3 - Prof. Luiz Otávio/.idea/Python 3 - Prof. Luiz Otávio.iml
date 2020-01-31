@@ -134,6 +134,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aula127ate135-django-blog-usando-view-inves-de-updateview" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula127ate136-django-blog-redimensionando-imagens-model" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aula127ate137-django-blog-crispy-forms-e-axes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aula127ate138-django-blog-reCAPTCHA" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
