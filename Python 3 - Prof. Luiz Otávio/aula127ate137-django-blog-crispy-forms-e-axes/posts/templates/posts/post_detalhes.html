@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load crispy_forms_tags %}
 
 {% block 'titulo' %}{{ post.titulo_post | title }}{% endblock %}
 
@@ -58,19 +59,19 @@
                     {% csrf_token %}
 
                     {% for hidden_field in form.hidden_fields %}
-                        <div class="form-group">
-                            {{ hidden_field.label_tag }} <br/>
+                        <!--<div class="form-group">
+                            {{ hidden_field.label_tag }} <br/>-->
                             {{ hidden_field }}
-                            {{ hidden_field.errors }}
-                        </div>
+                            <!--{{ hidden_field.errors }}
+                        </div>-->
                     {% endfor %}
 
                     {% for visible_field in form.visible_fields %}
-                        <div class="form-group">
-                            {{ visible_field.label_tag }} <br/>
-                            {{ visible_field }}
-                            {{ visible_field.errors }}
-                        </div>
+                        <!--<div class="form-group">
+                            {{ visible_field.label_tag }} <br/>-->
+                            {{ visible_field | as_crispy_field }}
+                            <!--{{ visible_field.errors }}
+                        </div>-->
                     {% endfor %}
 
                     {% include 'parciais/_messages.html' %}
