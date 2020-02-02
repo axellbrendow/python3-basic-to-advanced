@@ -1,0 +1,56 @@
+{
+    "editor.fontFamily": "'Droid Sans Mono', Menlo, consolas",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.tabSize": 4,
+    // Precisa instalar o Python e criar um ambiente virtual chamado venv
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    // Precisa instalar o XAMPP (Windows)
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "code-runner.executorMap": {
+        // Precisa instalar o nodejs
+        "javascript": "node",
+        // Precisa instalar o XAMPP (Windows)
+        "php": "C:\\xampp\\php\\php.exe",
+        // Precisa instalar o Python e criar um ambiente virtual chamado venv
+        "python": "venv\\Scripts\\python.exe -u",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+    },
+    // Muda do Powershell para CMD
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-ExecutionPolicy",
+        "Bypass"
+    ],
+    "code-runner.clearPreviousOutput": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 18,
+    "breadcrumbs.enabled": true,
+    "window.zoomLevel": 0,
+    "debug.console.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.html": "html",
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only",
+    ],
+    "editor.rulers": [
+        79,
+    ],
+    "git.enableSmartCommit": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+}

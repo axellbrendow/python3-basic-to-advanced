@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/custom/css/style.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-cart-link active" href="#">
+                        <span class="nav-cart-text mr-1">
+                            Carrinho
+                        </span>
+                        <span class="nav-cart-count mr-1">
+                            <strong>109x</strong>
+                        </span>
+                        <span class="nav-cart-icon mr-2">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <main class="container mt-4 mb-4">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="row no-gutters">
+                            <div class="col-lg-12">
+                                <img class="img-fluid" src="imgs/keyboard_robot_bw_clone_lego_27558_1280x720.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="mt-4 mt-lg-0">
+                            <h1 class="h2">Hello, world!</h1>
+                            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling
+                                extra attention to featured content or information.</p>
+                            <p class="lead">
+                                <span id="variation-preco" class="lead product-price">R$29,90</span>
+                                <span id="variation-preco-promocional"
+                                    class="lead product-old-price text-muted">R$49,90</span>
+                            </p>
+
+                            <form action="/addtocart/" id="form-add-to-cart">
+                                <div class="form-group">
+                                    <select id="select-variacoes" name="vid" class="form-control form-control-lg">
+                                        <option data-preco="R$ 59,90" data-preco-promocional="R$ 39,90" value="45">P
+                                        </option>
+                                        <option data-preco="R$ 51,90" data-preco-promocional="R$ 49,90" value="45">M
+                                        </option>
+                                        <option data-preco="R$ 52,90" data-preco-promocional="R$ 89,90" value="45">G
+                                        </option>
+                                    </select>
+                                </div>
+
+                                <div class="text-left">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        Adicionar ao carrinho
+                                    </button>
+                                </div>
+
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="mt-5 mb-5">
+                            <h2 class="text-center">Produto tal tal tal</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non diam lorem. Curabitur
+                                maximus
+                                magna non sem eleifend mollis. Nunc dapibus consectetur risus ut cursus. Cras facilisis
+                                eros
+                                quis vestibulum convallis. Etiam orci arcu, eleifend eu felis eu, aliquam sagittis sem.
+                                Donec eu
+                                aliquam ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce
+                                condimentum
+                                turpis ac elit lobortis, eu venenatis mauris ultricies. Integer orci diam, viverra sed
+                                scelerisque sit amet, posuere id elit. Nam metus risus, efficitur ut purus quis,
+                                accumsan
+                                cursus
+                                eros. Aenean sed pretium tortor, vitae vestibulum leo. Donec malesuada risus ac mauris
+                                pulvinar
+                                volutpat. Mauris nec pharetra sapien.</p>
+
+                            <p>Aenean facilisis lorem in arcu egestas rutrum. Fusce molestie lacinia dignissim. Nunc
+                                ultrices
+                                suscipit metus, eget semper est condimentum vitae. Donec vitae dui dui. Suspendisse
+                                elementum
+                                dolor quis nunc cursus, quis fringilla sem consectetur. Nullam sodales eros eu ornare
+                                laoreet.
+                                Donec in enim tempor, tincidunt neque ac, interdum diam. Suspendisse potenti. Vestibulum
+                                mi
+                                dolor, tristique quis lorem sit amet, vestibulum pretium ligula. Etiam sollicitudin quis
+                                risus
+                                ut ullamcorper.</p>
+
+                            <p>Proin congue tincidunt dolor, non efficitur orci eleifend vel. Nam quis efficitur erat.
+                                Proin
+                                quis tellus ac nisl malesuada sagittis eget id turpis. In sit amet blandit est. Nulla
+                                eget
+                                lacus
+                                eu urna interdum pretium. Nam tincidunt mauris non felis accumsan lacinia. Maecenas ac
+                                nunc
+                                erat. Phasellus pulvinar ultricies risus ut rhoncus. Vestibulum finibus, arcu nec
+                                vehicula
+                                volutpat, nisi libero lacinia libero, rhoncus aliquam urna elit vitae ante. Duis eget
+                                odio
+                                quis
+                                lacus consequat efficitur nec eu arcu.</p>
+
+                            <p>Maecenas commodo nunc nec eros bibendum maximus. Sed sit amet metus in ipsum euismod
+                                malesuada
+                                at a turpis. Nam ac dictum justo, ac posuere neque. Vestibulum vehicula tellus ut nunc
+                                fermentum, vel euismod nisi mattis. Maecenas elementum accumsan porta. Aliquam sed quam
+                                sit
+                                amet
+                                eros suscipit dapibus vitae eget nisl. Praesent eget dictum justo, at laoreet nulla.
+                                Integer
+                                lacinia elit enim, et vulputate quam accumsan id. Pellentesque ac purus in est suscipit
+                                ornare.
+                                Integer eu est vulputate, facilisis ex in, gravida lorem.</p>
+
+                            <p>Cras magna enim, ultricies eget dolor et, tempus lacinia urna. Nunc egestas nunc sed
+                                condimentum
+                                malesuada. Pellentesque sit amet dictum nisl, a lacinia metus. Quisque venenatis purus
+                                sed
+                                lorem
+                                varius, posuere scelerisque dolor venenatis. Duis tempus orci eu arcu faucibus, et
+                                lobortis
+                                dolor sodales. Aliquam quis volutpat erat, varius faucibus erat. Morbi sodales efficitur
+                                massa
+                                id porttitor. Cras at rhoncus leo, eu tincidunt libero. Donec lobortis consectetur
+                                sodales.
+                                Nullam at leo augue. Maecenas vel venenatis quam, eget pellentesque orci. Integer quis
+                                lacus
+                                ac
+                                elit aliquam aliquam a et diam. In magna erat, porta vel eleifend vitae, luctus a diam.
+                                Maecenas
+                                vel est at sem semper placerat. Nam faucibus tincidunt libero.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid bg-primary">
+        <div class="container text-light">
+            <div class="row">
+                <div class="col">
+                    <div class="p-1">
+                        <span class="align-middle p-1">Feito com Django</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-1 text-right">
+                        <span class="align-middle p-1">Por Luiz Otávio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script defer src="assets/font-awesome/js/all.js"></script>
+    <script src="assets/custom/js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+{
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Dracula",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 18,
+    "code-runner.clearPreviousOutput": true,
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "debug.console.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.html": "html",
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only",
+    ],
+    "editor.rulers": [
+        79,
+    ],
+    "git.enableSmartCommit": true,
+    "python.pythonPath": "./venv/bin/python -u",
+    "code-runner.executorMap": {
+        "python": "./venv/bin/python -u",
+        "javascript": "node",
+        "php": "php",
+        "perl": "perl",
+        "shellscript": "bash",
+    },
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+}

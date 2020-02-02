@@ -1,0 +1,11 @@
+produto_id 
+produto_nome 
+variacao_nome
+variacao_id 
+preco_unitario 
+preco_unitario_promocional 
+preco_quantitativo 
+preco_quantitativo_promocional 
+quantidade = 1
+slug 
+imagem 

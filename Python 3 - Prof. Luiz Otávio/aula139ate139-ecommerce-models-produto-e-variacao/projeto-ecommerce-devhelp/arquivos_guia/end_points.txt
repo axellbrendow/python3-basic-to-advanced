@@ -1,0 +1,23 @@
+geral:
+    '' (produto)
+    perfil/
+    pedido/
+
+pedido:
+    pagar/
+    fecharpedido/
+    detalhe/<int:pk>
+
+produto:
+    '' (lista de produtos)
+    <slug> detalhes do produto
+    addtocart
+    removefromcart
+    cart
+    finalizar
+
+perfil:
+    '' - criar
+    update
+    login
+    logout
