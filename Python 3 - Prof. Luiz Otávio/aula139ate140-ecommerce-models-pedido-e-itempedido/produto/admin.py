@@ -4,7 +4,7 @@ from .models import Variacao
 
 
 class VariacaoInline(admin.TabularInline):
-    models = models.Variacao
+    model = Variacao
     extra = 1
 
 
