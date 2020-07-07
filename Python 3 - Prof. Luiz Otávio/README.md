@@ -10,5 +10,6 @@ O [curso](https://www.udemy.com/course/python-3-do-zero-ao-avancado/) cobre os s
 - Integração com banco de dados SQLite e MySQL
 - Framework Django para criação de sites
 - Testes automatizados (assertions, doctests, unittest, TDD)
+- Engenharia de Software
 
 Este projeto traz todos os exercícios e códigos feitos nas aulas do curso.
