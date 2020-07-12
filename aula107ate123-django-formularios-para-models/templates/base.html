@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  {% include 'parciais/_head.html' %}
+
+  <title>{% block 'title' %}{% endblock %} | Agenda</title>
+</head>
+
+<body>
+
+  {% include 'parciais/_nav.html' %}
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+
+        {% if 'accounts' not in request.path %}
+          <br/>
+
+          <form method="get" action="{% url 'buscar' %}">
+            <input type="text" class="form-control" id="termoDePesquisa"
+                   name="termo" placeholder="Pesquisar" value="{{ request.GET.termo }}">
+          </form>
+        {% endif %}
+
+        {% include 'parciais/_messages.html' %}
+
+        {% block 'conteudo' %}{% endblock %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.slim.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>

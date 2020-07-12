@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block 'title' %}Registro{% endblock %}
+
+{% block 'conteudo' %}
+<h1 class="mt-4 mb-4">Registro</h1>
+                                           <!-- mt = margin top, mb = margin bottom -->
+<form method="post" action="{% url 'register' %}" class="mt-4 mb-4">
+  {% csrf_token %}
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="text" class="form-control" id="nome" name="nome"
+           value="{{ request.POST.nome }}" placeholder="Digite seu nome">
+  </div>
+  <div class="form-group">
+    <label for="sobrenome">Sobrenome</label>
+    <input type="text" class="form-control" id="sobrenome" name="sobrenome"
+           value="{{ request.POST.sobrenome }}" placeholder="Digite seu sobrenome">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="email"
+           value="{{ request.POST.email }}" aria-describedby="emailHelp" placeholder="Digite seu email">
+  </div>
+  <div class="form-group">
+    <label for="usuario">Usuário</label>
+    <input type="text" class="form-control" id="usuario" name="usuario"
+           value="{{ request.POST.usuario }}" placeholder="Digite seu usuário">
+  </div>
+  <div class="form-group">
+    <label for="password">Senha</label>
+    <input type="password" class="form-control" id="password" name="password"
+           placeholder="Digite sua senha">
+  </div>
+  <div class="form-group">
+    <label for="password-confirm">Confirmar Senha</label>
+    <input type="password" class="form-control" id="password-confirm"
+           name="password-confirm" placeholder="Repita a senha">
+  </div>
+  <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+{% endblock %}
